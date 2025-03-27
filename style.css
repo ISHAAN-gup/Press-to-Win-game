@@ -108,3 +108,9 @@ button {
   transform: scale(1.2);
   background-color: #046307;
 }
+
+.autosave-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: gray;
+}
