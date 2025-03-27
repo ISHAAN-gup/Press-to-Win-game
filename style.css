@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  font-family: "Roboto";
+  background-color: #3498db;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid black;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.stats {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#click-button {
+  background-color: #3498db;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#click-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);
+}
+
+#click-button:active {
+  transform: scale(1.2);
+  background-color: #008080;
+}
+
+#reset-button {
+  background-color: #d9534f;
+  color: white;
+  font-size: 18px;
+}
+
+#reset-button:hover {
+  background-color: #c9302c;
+  transform: scale(1.1);
+}
+
+#reset-button:active {
+  transform: scale(1.2);
+}
+
+#trophy-button:hover, #trophy-button10:hover {
+  background-color: #808080;
+  transform: scale(1.1);
+}
+
+#trophy-button:active, #trophy-button10:active {
+  transform: scale(1.2);
+  background-color: #ffcc00;
+}
+
+#win-button:hover, #win-button10:hover {
+  background-color: #808080;
+  transform: scale(1.1);
+}
+
+#win-button:active, #win-button10:active {
+  transform: scale(1.2);
+  background-color: #Ffd700;
+}
+
+#cpc-button:hover {
+  background-color: #808080;
+  transform: scale(1.1);
+}
+
+#cpc-button:active {
+  transform: scale(1.2);
+  background-color: #046307;
+}
